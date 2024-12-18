@@ -8,7 +8,7 @@ const connectDB = require('./config/database')
 const authRoutes = require('./routes/auth')
 const homeRoutes = require('./routes/home')
 const todoRoutes = require('./routes/todos')
-
+const randomtest = 'lol'
 require('dotenv').config({path: './config/.env'})
 
 // Passport config
