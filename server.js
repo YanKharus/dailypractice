@@ -9,6 +9,9 @@ const authRoutes = require('./routes/auth')
 const homeRoutes = require('./routes/home')
 const todoRoutes = require('./routes/todos')
 const randomtest = 'lol'
+const randomtests = 'lol'
+//asdsadasdasd
+const ff = 'FSO CANCER'
 require('dotenv').config({path: './config/.env'})
 
 // Passport config
