@@ -8,7 +8,7 @@ const connectDB = async () => {
       useFindAndModify: false,
     })
 
-    console.log(`MongoDB Connected: ${conn.connection.host}`)
+    console.log(`MongoDB Connected: ${conn.connection.host}`)       // copy paste this file to connect to database with mongoose 
   } catch (err) {
     console.error(err)
     process.exit(1)
